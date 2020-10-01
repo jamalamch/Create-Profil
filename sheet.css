@@ -13,4 +13,4 @@ background-color: transparent }
 a:active{ color: #900;
 text-decoration: underline;
 background-color: transparent }
-p{}
+p{text-align: center;}
