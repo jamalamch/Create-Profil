@@ -14,3 +14,18 @@ a:active{ color: #900;
 text-decoration: underline;
 background-color: transparent }
 p{text-decoration: double;}
+h1{ 
+  color: rgb(174, 196, 174);
+  background-color: rgb(75, 27, 27);
+  text-align: center;
+  width: 100%;
+  line-height: 2em;
+}
+.header{
+  font-weight: bold;
+  margin: 0;
+}
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
