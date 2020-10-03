@@ -7,7 +7,13 @@ body{
   background-color: #9efa9e;
 }
 a{
+  color: rgb(12, 65, 180);
   text-decoration: none;
+  font-variant: all-small-caps;
+}
+a:hover{
+  color: rgb(48, 53, 56);
+  background-color: rgba(212, 188, 188, 0.671);
 }
 .header{
   background-color:  #4a844a;
@@ -52,6 +58,9 @@ a{
 }
 .discription p{
   padding: 8px 18px;
+}
+.discription ul{
+  list-style: disclosure-closed;
 }
 .about ,.about2{
   padding: 30px 20px;
@@ -100,6 +109,7 @@ a{
   font-size: 3em;
   padding: 14px;
   color: wheat;
+ border-radius: 45px; 
 }
 .sr-only {
     position: absolute;
@@ -116,6 +126,27 @@ a{
   margin-bottom: 0; 
   color: white;
 }
+.Language{
+  text-align: left;
+  font-size: 1.1em;
+  color: aliceblue;
+  display: inline-table;
+  margin: 15px 8px;
+  padding: 5px 10px;
+  border: 1px solid rgba(245, 245, 245, 0.692);
+  border-radius: 9px;
+  background-color: rgba(102, 89, 64, 0.233);
+}
+.langua{
+  list-style: none;
+}
+.langua li{
+  display: block;
+}
+.langua li strong{
+  width: 50px;
+  display: inline-block
+}
 .skills {
   height: 13px; 
   background-color: #4CAF50;
@@ -131,26 +162,6 @@ a{
   border-radius: 2px;
   font-size: 0;
   margin-bottom: -2px;
-}
-.Language{
-  font-size: 1.1em;
-  color: aliceblue;
-  display: inline-table;
-  margin: 5px;
-  padding: 5px 10px;
-  border: 1px solid rgba(245, 245, 245, 0.692);
-  border-radius: 9px;
-  background-color: rgba(102, 89, 64, 0.233);
-}
-.langua{
-  list-style: none;
-}
-.langua li{
-  display: block;
-}
-.langua li strong{
-  width: 50px;
-  display: inline-block
 }
 @media only screen and (max-width: 1100px){
   .imgProfile {
