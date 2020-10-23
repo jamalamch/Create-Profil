@@ -11,6 +11,9 @@ var alph = 10;
 function setup() {
   if (isMobileDevice()) {
     noLoop();
+    draw = function(){
+      console.log("no drawing in Mobile mode ");
+    }
   } else {
     var canvas = createCanvas(windowWidth, windowHeight);
     canvas.id('sketch-container');
@@ -26,7 +29,6 @@ function setup() {
 }
 
 function draw() {
-
   for (var i = 0; i < 15; i++) {
     var v = p5.Vector.random2D();
 
@@ -34,10 +36,8 @@ function draw() {
 
     v.mult(random(1, 20 * wave));
     var pointillize = random(smallPoint, largePoint);
-    var x = mouseX + v.x;//floor(random(img.width));
-    var y = mouseY + v.y;//floor(random(img.height));
-    //var pix = img.get(x, y);
-    //fill(pix[0],pix[1], pix[2], 52);
+    var x = mouseX + v.x;
+    var y = mouseY + v.y;
     fill(colors[index]);
     ellipse(x, y, pointillize, pointillize);
   }
