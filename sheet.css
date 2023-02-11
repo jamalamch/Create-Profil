@@ -39,9 +39,23 @@ a:hover{
   width: 40%;
   padding: 50px;
 }
+.icon {
+  flex: auto;
+}
+.icon
+{
+  flex: auto;
+  padding: 5px;
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px grey;
+  transition: opacity 2.5s;
+}
+
 .img{
   margin: auto;
 }
+
 .img img{
   width: 100%;
   border-radius: 20px;
@@ -51,7 +65,11 @@ a:hover{
 .img img:hover{
   opacity : 0.75;
 }
+
+.centrage {text-align: center;}
+
 .cader{
+  align-items: center;
   background-color: #4a844a;
   border: 3px solid white;
   transition: background-color 2s, border-color 1.5s;
