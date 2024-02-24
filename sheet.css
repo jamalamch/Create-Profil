@@ -42,6 +42,9 @@ a:hover{
 .icon {
   flex: auto;
 }
+b {
+  font-weight: bold;
+}
 .icon
 {
   flex: auto;
