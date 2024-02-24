@@ -46,7 +46,7 @@ a:hover{
 {
   flex: auto;
   padding: 5px;
-  width: 150px;
+  width: 100px;
   border-radius: 20px;
   box-shadow: 0 0 20px grey;
   transition: opacity 2.5s;
