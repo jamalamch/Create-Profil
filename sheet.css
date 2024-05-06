@@ -213,7 +213,8 @@ canvas#sketch-container {
   }
   .about2{
     position: absolute;
-    top: 300px;
+    top: 670px;
+    right: 50px;
   }
 }
 
